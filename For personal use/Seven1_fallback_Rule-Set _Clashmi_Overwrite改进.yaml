@@ -137,7 +137,7 @@ proxy-groups:
   - {name: 新加坡-故转,   <<: *Anchor_FB, proxies: [新加坡-手动, 新加坡-自动], icon: https://github.com/Seven1echo/Yaml/raw/main/icons/SG.png}
   - {name: 韩国-故转,     <<: *Anchor_FB, proxies: [韩国-手动, 韩国-自动], icon: https://github.com/Seven1echo/Yaml/raw/main/icons/KR.png}
   - {name: 美国-故转,     <<: *Anchor_FB, proxies: [美国-手动, 美国-自动], icon: https://github.com/Seven1echo/Yaml/raw/main/icons/US.png}
-  - {name: 德国-故转,     <<: *Anchor_FB, proxies: [德国手动, 德国自动], icon: https://github.com/xiao-lanmao/Yaml/raw/main/icons/DE.png}
+  - {name: 德国-故转,     <<: *Anchor_FB, proxies: [德国-手动, 德国-自动], icon: https://github.com/xiao-lanmao/Yaml/raw/main/icons/DE.png}
   - {name: 欧洲-故转,     <<: *Anchor_FB, proxies: [欧洲-手动, 欧洲-自动], icon: https://github.com/Seven1echo/Yaml/raw/main/icons/EU.png}
 # ══ 手动组 ══
   - {name: 香港-手动,     <<: *Anchor_HS, filter: *Anchor_HK, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/HK.png}
