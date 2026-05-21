@@ -108,8 +108,8 @@ dns:
 proxy-groups:
   - {name: 一键代理,      <<: *Anchor_PG, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Rocket.png}
   - {name: Pionex,       <<: *Anchor_PG, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Pionex.png}
-  - {name: Binance,      <<: *Anchor_LD, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Binance.png}
-  - {name: OKX,          <<: *Anchor_LD, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/OKX.png}
+  - {name: Binance,      <<: *Anchor_OP, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Binance.png}
+  - {name: OKX,          <<: *Anchor_OP, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/OKX.png}
   - {name: ChatGPT,      <<: *Anchor_OP, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/ChatGPT.png}
   - {name: Claude,       <<: *Anchor_OP, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Claude.png}
   - {name: Gemini,       <<: *Anchor_OP, icon: https://github.com/Seven1echo/Yaml/raw/main/icons/Gemini.png}
