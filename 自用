@@ -171,6 +171,7 @@ rules:
 # === 只让桌面客户端走直连，其他走代理 ===
   - PROCESS-NAME,Binance.exe,DIRECT
   - PROCESS-NAME,OKX.exe,DIRECT
+  - PROCESS-NAME,HomilySoftwareCn.exe,DIRECT
    # 服务分流
   - RULE-SET,private_domain,DIRECT                                      # Private
   - RULE-SET,private_ip,DIRECT,no-resolve                               # Private
