@@ -174,9 +174,9 @@ proxy-groups:
 # ███████████████████████████ 规则匹配 ███████████████████████████
 rules:
    # === 只让桌面客户端走直连，其他走代理 ===
-  - PROCESS-NAME,Binance.exe,DIRECT
-  - PROCESS-NAME,OKX.exe,DIRECT
-  - PROCESS-NAME,HomilySoftwareCn.exe,DIRECT
+  - PROCESS-NAME,Binance.exe,国内直连
+  - PROCESS-NAME,OKX.exe,国内直连
+  - PROCESS-NAME,HomilySoftwareCn.exe,国内直连
    # 服务分流
   - AND,((RULE-SET,cn!_domain),(DST-PORT,443),(NETWORK,UDP)),REJECT       # 禁用国外 QUIC 流量
   - RULE-SET,private_domain,国内直连                                       # 私有域名
